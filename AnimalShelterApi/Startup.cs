@@ -32,6 +32,7 @@ namespace AnimalShelterApi
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "AnimalShelterApi", Version = "v1" });
             });
+            services.AddSwaggerDocument();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -40,8 +41,8 @@ namespace AnimalShelterApi
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "AnimalShelterApi v1"));
+                app.UseOpenApi();
+                app.UseSwaggerUI3();
             }
 
             //app.UseHttpsRedirection();
