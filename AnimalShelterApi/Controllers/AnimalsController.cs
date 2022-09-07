@@ -20,7 +20,7 @@ namespace AnimalShelterApi.Controllers
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Animal>>> Get(string petType, string breed, int minimumAge, int maxAge, string gender, string color)
     {
-      var query = _db.Animals.AsQueryable();
+        var query = _db.Animals.AsQueryable();
 
       if (petType != null)
       {
