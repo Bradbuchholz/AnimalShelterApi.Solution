@@ -72,6 +72,7 @@ minimumAge: returns results based on an age range
 maxAge: returns results based on maximum age
 gender: returns result based on gender preference
 color: returns results based on chosen color
+```
 
 ## Known Bugs 
 * None. 
