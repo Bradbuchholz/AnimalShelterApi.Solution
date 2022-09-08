@@ -60,6 +60,41 @@ _You've completed a few projects at the dev agency where you work and you've bee
 ## API Documentation
 
 _You can explore the API endpoints in Postman or your browser. Once the API is running you can also go to `[Your-server-address]/swagger`._
+* example - `http://localhost:5001/swagger`
+
+_This is an open API so you don't need any authentication to use all CRUB functionality._
+
+## Endpoints
+_Base URL: [http://localhost:5001]
+
+_HTTP Request Structure_
+
+```
+GET /api/Animals
+POST /api/Animals
+GET /api/Animals/{id}
+PUT /api/Animals/{id}
+DELETE /api/Animals/{id}
+```
+
+# Example
+
+```
+http://localhost:5001/api/animals/2
+```
+# Example response
+
+```
+{
+  "animalId": 2,
+  "name": "Fluffy",
+  "petType": "Cat",
+  "breed": "Persian",
+  "age": 4,
+  "gender": "Female",
+  "color": "Brown"
+}
+```
 
 _Search parameters include:_
 
