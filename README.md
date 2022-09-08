@@ -65,7 +65,7 @@ _You can explore the API endpoints in Postman or your browser. Once the API is r
 _This is an open API so you don't need any authentication to use all CRUB functionality._
 
 ## Endpoints
-_Base URL: [http://localhost:5001]
+_Base URL: [http://localhost:5001]_
 
 _HTTP Request Structure_
 
