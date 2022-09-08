@@ -8,8 +8,6 @@ _You've completed a few projects at the dev agency where you work and you've bee
 * C#
 * dotnet
 * .Net 5.0
-* HTML
-* CSS
 * MYSQL
 * Markdown   
 
