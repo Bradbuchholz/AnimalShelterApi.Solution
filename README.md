@@ -2,7 +2,7 @@
 _By Brad Buchholz_
 ## Description
 
-### _You've completed a few projects at the dev agency where you work and you've been given more autonomy to choose which project you'd like to work on next. The agency currently has three new back-end contracts to build APIs for their clients. Since this is the first time you've been given free rein on a projectm take this opportunity to showcase your versatility for the project manager._
+_You've completed a few projects at the dev agency where you work and you've been given more autonomy to choose which project you'd like to work on next. The agency currently has three new back-end contracts to build APIs for their clients. Since this is the first time you've been given free rein on a projectm take this opportunity to showcase your versatility for the project manager._
 
 ## Technologies Used 
 * C#
